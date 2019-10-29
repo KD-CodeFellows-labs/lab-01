@@ -1,0 +1,52 @@
+/* MOBILE: */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    header {
+        height: 75px;
+    }
+    nav#b {
+        height: 150px;
+    }
+    article.blocks {
+        height: 125px;
+    }
+    article.floats {
+        float: left;
+        width: 238px;
+        height: 248px;
+    }
+    footer {
+        clear: both;
+        height: 80px;
+    }
+}
+/* DESKTOP: */
+/* and (max-width: 960px) */
+@media screen and (min-width: 768px) {
+    header {
+        height: 98px;
+    }
+    nav#b {
+        float: left;
+        width: 198px;
+        height: 598px;
+    }
+    article.blocks {
+        float: left;
+        height: 198px;
+        width: 378px;
+    }
+    #d {
+        float: right;
+    }
+    article.floats {
+        float: left;
+        width: 188px;
+        height: 248px;
+    }
+    footer {
+        clear: right;
+        height: 148px;
+        width: 758px;
+        float: right;
+    }
+}
